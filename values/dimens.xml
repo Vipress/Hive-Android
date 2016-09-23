@@ -1,0 +1,29 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="userHead_top">120dp</dimen>
+    <dimen name="userHeadSize">156dp</dimen>
+    <dimen name="UsenameWidth">168dp</dimen>
+    <dimen name="editTextLeft">54dp</dimen>
+    <dimen name="LargeText">24dp</dimen>
+    <dimen name="MediumText">20dp</dimen>
+    <dimen name="SmallText">14dp</dimen>
+    <dimen name="ProfileScrollWidth">250dp</dimen>
+    <dimen name="ProfilePicHeight">55dp</dimen>
+    <dimen name="ProfileMag">10dp</dimen>
+    <dimen name="welcomePageMar">130dp</dimen>
+    <dimen name="welcomeSize">124dp</dimen>
+    <dimen name="otherClientHeight">100dp</dimen>
+    <dimen name="otherClientHead">70dp</dimen>
+    <dimen name="contactHead">60dp</dimen>
+    <dimen name="contactHeight">90dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="setting_head_boxheight">386dp</dimen>
+    <dimen name="setting_strip">60dp</dimen>
+    <dimen name="changeNameLeft">135dp</dimen>
+</resources>

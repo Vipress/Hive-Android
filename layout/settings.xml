@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    tools:context="com.example.administrator.hive.ui.Settings"
+    tools:showIn="@layout/setting_activity"
+    android:background="@color/SettingsScroll">
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_head_boxheight">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/userHeadSize"
+                android:layout_height="@dimen/userHeadSize"
+                android:src="@mipmap/pic"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/userHead_top"
+                android:id="@+id/Userhead" />
+
+
+            <HorizontalScrollView
+                android:layout_width="@dimen/ProfileScrollWidth"
+                android:layout_height="@dimen/ProfilePicHeight"
+                android:id="@+id/horizontalScrollView"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/MediumText">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Pro1"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="@dimen/ProfilePicHeight"
+                        android:layout_height="@dimen/ProfilePicHeight"
+                        android:src="@mipmap/bee"
+                        app:civ_border_width="0.5dp"
+                        app:civ_border_color="@color/white"
+                        android:layout_marginRight="@dimen/ProfileMag"
+                        android:clickable="true"
+                        android:background="?android:attr/selectableItemBackground"/>
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Pro2"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="@dimen/ProfilePicHeight"
+                        android:layout_height="@dimen/ProfilePicHeight"
+                        android:src="@mipmap/disk"
+                        app:civ_border_width="0.5dp"
+                        app:civ_border_color="@color/white"
+                        android:layout_marginRight="@dimen/ProfileMag"
+                        android:clickable="true"/>
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Pro3"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="@dimen/ProfilePicHeight"
+                        android:layout_height="@dimen/ProfilePicHeight"
+                        android:src="@mipmap/fatbee"
+                        app:civ_border_width="0.5dp"
+                        app:civ_border_color="@color/white"
+                        android:layout_marginRight="@dimen/ProfileMag"
+                        android:clickable="true"/>
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Pro4"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="@dimen/ProfilePicHeight"
+                        android:layout_height="@dimen/ProfilePicHeight"
+                        android:src="@mipmap/ladybug"
+                        app:civ_border_width="0.5dp"
+                        app:civ_border_color="@color/white"
+                        android:layout_marginRight="@dimen/ProfileMag"
+                        android:clickable="true"/>
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Pro5"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="@dimen/ProfilePicHeight"
+                        android:layout_height="@dimen/ProfilePicHeight"
+                        android:src="@mipmap/spider"
+                        app:civ_border_width="0.5dp"
+                        app:civ_border_color="@color/white"
+                        android:layout_marginRight="@dimen/ProfileMag"
+                        android:clickable="true"/>
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Pro6"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="@dimen/ProfilePicHeight"
+                        android:layout_height="@dimen/ProfilePicHeight"
+                        android:src="@mipmap/sunflower"
+                        app:civ_border_width="0.5dp"
+                        app:civ_border_color="@color/white"
+                        android:layout_marginRight="@dimen/ProfileMag"
+                        android:clickable="true"/>
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Pro7"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="@dimen/ProfilePicHeight"
+                        android:layout_height="@dimen/ProfilePicHeight"
+                        android:src="@mipmap/caterpillar"
+                        app:civ_border_width="0.5dp"
+                        app:civ_border_color="@color/white"
+                        android:layout_marginRight="@dimen/ProfileMag"
+                        android:clickable="true"/>
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Pro8"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="@dimen/ProfilePicHeight"
+                        android:layout_height="@dimen/ProfilePicHeight"
+                        android:src="@mipmap/pic"
+                        app:civ_border_width="0.5dp"
+                        app:civ_border_color="@color/white"
+                        android:layout_marginRight="@dimen/ProfileMag"
+                        android:clickable="true"
+                        />
+                </LinearLayout>
+
+            </HorizontalScrollView>
+        </LinearLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:elevation="2dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/SmallText"
+            android:text="Your Username"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            />
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/MediumText"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            />
+    </LinearLayout>
+
+
+
+    <!--TextView
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/under_user"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/SmallText"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"/-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:elevation="2dp">
+        <TextView
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ip_hint"
+            android:textSize="@dimen/SmallText"
+            android:textColor="@color/colorPrimary" />
+        <TextView
+            android:id="@+id/ipAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/MediumText"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

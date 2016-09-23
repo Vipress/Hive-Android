@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f1c236</color>
+    <color name="colorPrimaryDark">#d93e2c00</color>
+    <color name="colorAccent">#ffea00</color>
+    <color name="UserNameText">#5e5e5e</color>
+    <color name="white">#ffffff</color>
+    <color name="UserTextLight">#d45e5e5e</color>
+    <color name="SettingsScroll">#e6e6dd</color>
+    <color name="grey">#71716d</color>
+</resources>

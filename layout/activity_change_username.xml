@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.hive.ui.ChangeUsernameActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+
+    <TextView
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Username Here"
+        android:textSize="@dimen/SmallText"
+        android:textColor="@color/grey"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/username_change"
+        android:layout_width="@dimen/ProfileScrollWidth"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/MediumText" />
+
+</LinearLayout>
